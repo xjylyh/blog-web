@@ -1,11 +1,12 @@
-# blog
-<hr/>
+# blog 前台
+
+<b>create with react & antd</b>
 
 ## 启动方式
 
 
 ```js
-npm i <b>or</b> yarn add
+npm i or yarn add
 
 npm start
 ```
