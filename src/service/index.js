@@ -1,5 +1,6 @@
 import axios from 'axios';
-const baseURL = "http://127.0.0.1:7001";
+const baseURL = "http://localhost:7001";
+// const baseURL = "http://:7001";
 const config = {
     baseURL,
     timeout: 8000,

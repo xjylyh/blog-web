@@ -81,7 +81,7 @@ class UserForm extends Component{
                                 rules:[{
                                     required:true,message:'请输入邮箱'
                                 }]
-                            })(<Input prefix={<Icon type="mail" style={{ color: 'rgba(0,0,0,.25)' }} />} type="email" placeholder="请输入密码"/>)
+                            })(<Input prefix={<Icon type="mail" style={{ color: 'rgba(0,0,0,.25)' }} />} type="email" placeholder="请输入邮箱"/>)
                         }
                     </Form.Item>
                 }
