@@ -6,6 +6,7 @@ import Navleft from '../../components/Navleft';
 import {Route} from 'react-router-dom';
 import Welcome from '../welcome';
 import Category from '../category';
+import Article from '../article'
 
 
 export default class Admin extends Component{
@@ -21,7 +22,7 @@ export default class Admin extends Component{
                         <Col span="21">
                             <Route exact path="/admin" component={Welcome} />
                             <Route path="/admin/category" component={Category} />
-                            {/* <Route path="/admin/article" component={Article} /> */}
+                            <Route path="/admin/article" component={Article} />
                         </Col>
                     </Row>
                 </Col>

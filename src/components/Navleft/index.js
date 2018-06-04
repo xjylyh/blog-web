@@ -3,7 +3,6 @@ import {Menu,Icon} from 'antd';
 import { withRouter } from 'react-router-dom';
 class Navleft extends Component{
     handleClick=({ item, key, keyPath })=>{
-        console.log(item,key,keyPath);
         let {history} = this.props;
         history.push(key);
     }
@@ -17,11 +16,11 @@ class Navleft extends Component{
              onClick={this.handleClick}
             >
                 <Menu.Item key="/admin" title="文章管理">
-                    <Icon type="lock" />
+                    <Icon type="home" />
                 首页
                 </Menu.Item>
                 <Menu.Item key="/admin/category" title="分类管理">
-                    <Icon type="lock" />
+                    <Icon type="bars" />
                 分类管理
                 </Menu.Item>
                 <Menu.Item key="/admin/article" title="文章管理">
